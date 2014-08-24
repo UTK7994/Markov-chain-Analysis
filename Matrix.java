@@ -17,6 +17,7 @@ class Matrix
 	{
 		sc = new Scanner(System.in);
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("Enter the number of states in Transition matrix");
 		n = sc.nextInt();
 		double M[][] = new double[n][n];
 		double temp[][] = new double[n][n];
