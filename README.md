@@ -1,4 +1,4 @@
-Markoc-chain-Analysis
+Markov-chain-Analysis
 =====================
 
 
