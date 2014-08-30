@@ -56,9 +56,9 @@ class Matrix
 		p1 = sc.nextInt();
 		System.out.println("Enter Liscensed Channels ");// N in paper
 		p2 = sc.nextInt();
-		System.out.println("Enter the Reserved Channels");
+		System.out.println("Enter the Reserved Channels"); //R in paper
 		R = sc.nextInt();
-		System.out.println("Enter the N_p or Total Primary users ");
+		System.out.println("Enter the N_p or Total Primary users ");  //
 		Np = sc.nextInt();
 		System.out.println("Enter the N_c or Total Secondary users");
 		Nc = sc.nextInt();
@@ -124,8 +124,6 @@ class Matrix
 			}
 		}
 		
-		//displays the states and the number it has
-		//disp(st);
 
 		//start making a matrix of the practicall Example(States x States Matrix)
 		States = new double[states][states];
